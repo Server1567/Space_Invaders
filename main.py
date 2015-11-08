@@ -5,8 +5,6 @@
 Twitter: @server1567
 """
 
-# Hola Mundo!
-
 import pygame,sys
 from pygame.locals import *
 
