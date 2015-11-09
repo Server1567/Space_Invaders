@@ -44,7 +44,7 @@ def cargarEnemigos():
 def SpaceInvader():
 	pygame.init()
 	window = pygame.display.set_mode((ancho,alto))
-	pygame.display.set_caption("Space Invaders by Junior J.")
+	pygame.display.set_caption("Space Invaders")
 	fondo = pygame.image.load("imagesPygame/Fondo.jpg")
 
 	pygame.mixer.music.load("Sonidos/Intro.mp3")
