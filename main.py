@@ -17,7 +17,7 @@ alto = 480
 def Inicio():
 	pygame.init()
 	window = pygame.display.set_mode((ancho,alto))
-	pygame.display.set_caption("Space Invaders by Junior J.")
+	pygame.display.set_caption("Space Invaders")
 
 	fondo = pygame.image.load("imagesPygame/space.gif")
 	up = pygame.image.load("imagesPygame/up.png")
