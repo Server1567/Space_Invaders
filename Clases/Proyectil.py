@@ -1,4 +1,4 @@
-import pygame,sys
+import pygame
 
 class Proyectil(pygame.sprite.Sprite):
 	def __init__(self, posx, posy, ruta, personaje):
@@ -21,7 +21,6 @@ class Proyectil(pygame.sprite.Sprite):
 
 		else:
 			self.rect.top = self.rect.top + self.velocidadDisparo
-
 
 	def dibujar(self, superficie):
 		superficie.blit(self.ImagenProyectil, self.rect)

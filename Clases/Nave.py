@@ -1,5 +1,7 @@
-import pygame,sys
-import Proyectil
+import pygame
+
+from Clases import Proyectil
+
 
 class naveEspacial(pygame.sprite.Sprite):
 	"""Clase para las naves"""
